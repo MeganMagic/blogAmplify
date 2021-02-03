@@ -8,8 +8,8 @@ function App() {
   return (
     <HashRouter>
         <Switch>
-            <Route pat="/"><Home /></Route>
-            <Route path="/blog"><Blog /></Route>
+            <Route path="/blog" exact><Blog /></Route>
+            <Route path="/" exact><Home /></Route>
             <Route><Error /></Route>
         </Switch>
     </HashRouter>

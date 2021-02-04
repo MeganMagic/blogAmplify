@@ -1,1 +1,13 @@
-$key-color : rgb(78, 29, 204)
+$key-color : rgb(78, 29, 204);
+
+*{  margin : 0; padding : 0; }
+.lightTheme { 
+    color : $key-color;
+    background-color: white;
+    border-color : $key-color;
+}
+.darkTheme {
+    color : white;
+    background-color: $key-color;
+    border-color: white;
+}

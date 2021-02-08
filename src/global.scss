@@ -1,5 +1,9 @@
 $key-color : rgb(78, 29, 204);
 
+@mixin align-div-center() {
+    margin : 0 auto;    
+}
+
 *{  margin : 0; padding : 0; }
 .lightTheme { 
     color : $key-color;
@@ -10,4 +14,10 @@ $key-color : rgb(78, 29, 204);
     color : white;
     background-color: $key-color;
     border-color: white;
+}
+.flex-row-wrapper{
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
